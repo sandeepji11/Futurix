@@ -3,22 +3,28 @@ export const sessions = [
     id: 's1',
     title: 'Choosing PCM vs PCB after Class 10',
     host: 'Dr. Meera Iyer',
+    mentorId: 'm1',
     when: 'Saturdays · 5:00 PM IST',
     seats: '12 sample seats',
+    topic: 'Science stream pathways & subject combinations',
   },
   {
     id: 's2',
     title: 'Building a first GitHub portfolio',
     host: 'Kabir Shah',
+    mentorId: 'm2',
     when: 'Sundays · 11:00 AM IST',
     seats: '20 sample seats',
+    topic: 'Coding projects, Git workflow & junior tech resumes',
   },
   {
     id: 's3',
     title: 'NEET vs research careers in biology',
-    host: 'Ananya Rao',
+    host: 'Dr. Meera Iyer',
+    mentorId: 'm1',
     when: 'Fridays · 7:30 PM IST',
     seats: '15 sample seats',
+    topic: 'Biotech, genomics, and pure science alternatives to MBBS',
   },
 ]
 
@@ -29,6 +35,28 @@ export const mentors = [
     role: 'Career counsellor · 12 years',
     focus: 'School streams, medical and science paths',
     quote: 'Your Class 11 subjects should match curiosity, not panic.',
+    badge: 'AI Mentor · Demo Persona',
+    specialization: 'School Streams, Medical & Science Pathways',
+    background:
+      '12+ years of academic and career guidance experience advising over 3,000 students across CBSE, ICSE, and state boards on Class 10 to 11 transitions, medical entrance strategy, and life-science research careers.',
+    expertise: [
+      'Stream Selection (PCM vs PCB)',
+      'NEET & Medical Sciences Strategy',
+      'Bio-sciences & Research Careers (IISER/NISER)',
+      'Class 10 to 11 Academic Transition',
+      'Balancing Entrance Coaching with School',
+    ],
+    mentorshipTopics: [
+      'How to evaluate if MBBS is genuinely right for your temperament',
+      'Differences between pure science research and clinical medicine',
+      'Building strong study habits and managing Class 11 physics & chemistry',
+      'Non-clinical biology pathways like genomics, biotechnology & forensics',
+    ],
+    suggestedQuestions: [
+      'Should I choose PCM, PCB, or PCMB if I like both biology and computers?',
+      'What are the best research careers in biology if I decide not to do MBBS?',
+      'How do I handle the big jump in difficulty between Class 10 and 11 science?',
+    ],
   },
   {
     id: 'm2',
@@ -36,6 +64,28 @@ export const mentors = [
     role: 'Software engineer · Bengaluru',
     focus: 'Internships, DSA, and first jobs',
     quote: 'Ship small projects. Recruiters read GitHub more than marksheets.',
+    badge: 'AI Mentor · Demo Persona',
+    specialization: 'Software Engineering, Open-Source & Tech Careers',
+    background:
+      'Senior full-stack software engineer based in Bengaluru with experience building high-scale web platforms. Mentors aspiring software developers on mastering Data Structures, Git collaboration, and portfolio building.',
+    expertise: [
+      'Full-Stack Web Development (React & Node.js)',
+      'Data Structures & Algorithms (DSA)',
+      'GitHub & Project Portfolio Reviews',
+      'Junior Developer Resume Crafting',
+      'Technical Interview Preparation',
+    ],
+    mentorshipTopics: [
+      'How to build and deploy your first full-stack web application',
+      'Contributing to open-source software as a beginner',
+      'Finding early tech internships in your 1st or 2nd year of college',
+      'A structured roadmap from basic coding to landing a developer role',
+    ],
+    suggestedQuestions: [
+      'How many GitHub projects should I have before applying for internships?',
+      'How do I start learning Data Structures & Algorithms without getting overwhelmed?',
+      'Can I get a software developer job if I do not have a B.Tech Computer Science degree?',
+    ],
   },
   {
     id: 'm3',
@@ -43,6 +93,28 @@ export const mentors = [
     role: 'Product designer · Pune',
     focus: 'UI/UX portfolios and design schools',
     quote: 'Show the messy process, not only the final Figma file.',
+    badge: 'AI Mentor · Demo Persona',
+    specialization: 'UI/UX Design, Interaction & Creative Careers',
+    background:
+      'Lead Product Designer with 7 years of industry experience crafting design systems, user flows, and mobile interfaces for high-growth consumer apps. Guides students targeting NID, UCEED, and careers in UX.',
+    expertise: [
+      'User Experience (UX) Research & User Journeys',
+      'Interface Design & Figma Prototyping',
+      'Design Case Studies & Portfolio Building',
+      'Design School Entrance Prep (UCEED / NID / CEED)',
+      'Design Thinking & Usability Testing',
+    ],
+    mentorshipTopics: [
+      'How to structure a standout UX design case study',
+      'Transitioning into UI/UX from an engineering, arts, or commerce background',
+      'Creating a portfolio when you do not have commercial client experience',
+      'Mastering design systems, component libraries, and typography',
+    ],
+    suggestedQuestions: [
+      'What should a beginner UX case study include to impress design hiring managers?',
+      'Is a formal degree from NID or IIT design school required for a UX career?',
+      'How do I begin learning Figma and user research methods from scratch?',
+    ],
   },
   {
     id: 'm4',
@@ -50,5 +122,27 @@ export const mentors = [
     role: 'Startup founder · sample profile',
     focus: 'Entrepreneurship and campus companies',
     quote: 'Talk to 20 users before you write a single line of code.',
+    badge: 'AI Mentor · Demo Persona',
+    specialization: 'Tech Startups, Student Entrepreneurship & Product Strategy',
+    background:
+      'Serial entrepreneur and founder of two university-incubated tech companies. Mentors college students on problem validation, building zero-to-one MVPs, finding co-founders, and pitching to early grants.',
+    expertise: [
+      'Zero-to-One Product Validation & Lean Startup',
+      'Campus Entrepreneurship & Student Incubators',
+      'Pitch Deck Design & Investor Storytelling',
+      'Customer Discovery & User Interviews',
+      'Government Grants & Bootstrapping (Startup India)',
+    ],
+    mentorshipTopics: [
+      'How to test whether people actually want your product idea before writing code',
+      'Balancing college coursework with running an early-stage startup',
+      'Finding technical and business co-founders who complement your skills',
+      'Applying for campus incubators and initial grant funding',
+    ],
+    suggestedQuestions: [
+      'How do I validate if my startup idea is worth pursuing?',
+      'How can student founders build an MVP with zero budget?',
+      'What are the common mistakes first-time student entrepreneurs make?',
+    ],
   },
 ]
