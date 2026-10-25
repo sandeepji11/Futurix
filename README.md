@@ -266,33 +266,7 @@ npm run dev
 
 ---
 
-## 13. Screenshots Section
-
-## 📸 Futurix Screenshots
-
-### 🏠 Landing Page
-![Futurix Landing Page](screenshots/landing.png)
-
-### 📊 Student Dashboard
-![Student Dashboard](screenshots/dashboard.png)
-
-### 🤖 AI Career Guidance
-![AI Career Guidance](screenshots/career-guidance.png)
-
-### 🗺️ Personalized Career Roadmap
-![Career Roadmap](screenshots/roadmap.png)
-
-### 🎮 Interactive Career Simulator
-![Career Simulator](screenshots/simulator.png)
-
-### 🧑‍🏫 AI Mentorship
-![AI Mentorship](screenshots/mentorship.png)
-
-### 👥 Community Discussions
-![Community](screenshots/community.png)
----
-
-## 14. Team Contributions
+## 13. Team Contributions
 
 Futurix was conceptualized and developed as a collaborative hackathon project:
 
@@ -311,7 +285,7 @@ Futurix was conceptualized and developed as a collaborative hackathon project:
 
 ---
 
-## 15. Future Improvements
+## 14. Future Improvements
 
 * **Distributed Backend Database:** Transition community discussions, mentor interactions, and profile bookmarks from browser `localStorage` to an authenticated PostgreSQL or MongoDB database.
 * **Multi-Turn Chat Context:** Extend the backend chat endpoint to accept full conversational history lists for multi-turn advisory sessions.
@@ -321,7 +295,7 @@ Futurix was conceptualized and developed as a collaborative hackathon project:
 
 ---
 
-## 16. Acknowledgments
+## 15. Acknowledgments
 
 * **Hacktoberfest 2026:** For fostering an inspiring global open-source community.
 * **Google DeepMind & Gemma Team:** For providing lightweight, high-performance open models.
@@ -333,3 +307,7 @@ Futurix was conceptualized and developed as a collaborative hackathon project:
 <p align="center">
   Built with curiosity, ambition, and code for students exploring tomorrow.
 </p>
+
+
+##  PPT Link
+**Link:** https://drive.google.com/file/d/1bLveNsrVN1iI02rBER9-1em7wJSng5JA/view?usp=sharing
